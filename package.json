@@ -1,0 +1,28 @@
+{
+  "name": "repro-hub-sitemap-site-config",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "worker": "wrangler dev --config wrangler.jsonc --local --ip 127.0.0.1 --port 8787"
+  },
+  "dependencies": {
+    "@nuxthub/core": "0.10.10",
+    "@nuxtjs/sitemap": "8.6.2",
+    "nuxt": "4.6.2"
+  },
+  "devDependencies": {
+    "drizzle-kit": "0.31.11",
+    "drizzle-orm": "0.45.4",
+    "typescript": "5.9.3",
+    "wrangler": "4.152.0"
+  },
+  "allowScripts": {
+    "esbuild": true,
+    "workerd": true
+  },
+  "overrides": {
+    "nuxt-site-config": "4.2.3",
+    "nitropack": "2.13.4"
+  }
+}

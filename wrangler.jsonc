@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "hub-sitemap-site-config-repro",
+  "main": ".output/server/index.mjs",
+  "compatibility_date": "2025-12-31",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".output/public"
+  }
+}
