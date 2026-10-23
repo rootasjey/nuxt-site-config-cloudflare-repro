@@ -18,7 +18,7 @@ The build succeeds. `npm run worker` runs Wrangler 4.152.0 in local mode; it doe
 
 ```text
 Uncaught TypeError: Cannot read properties of undefined (reading 'env')
-at ... in .output/server/chunks/nitro/nitro.mjs
+at null.<anonymous> (index.js:14599:32) in .output/server/chunks/nitro/nitro.mjs
 The Workers runtime failed to start.
 ```
 
